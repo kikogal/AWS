@@ -25,7 +25,7 @@ if [[ "$1" == "--help" ]]; then
 fi
 
 if [[ $# -lt 2 ]]; then
-    echo "Ejecute con --help para más información."
+    echo "try to pass --help as parameter to get more information" 
     exit 1
 fi
 
