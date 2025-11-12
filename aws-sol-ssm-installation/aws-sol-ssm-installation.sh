@@ -11,8 +11,8 @@ send_help() {
     echo "./$0 --ip <IP_EC2> --pem <RUTA_CLAVE_PEM>"
     echo
     echo "Parameters:"
-    echo "  1.ip    EC2 instance IP (public or private)"
-    echo "  2.pem   path to .pem file"
+    echo "  1.pem    path to .pem file"
+    echo "  2.IP     EC2 instance IP (public or private)"
     echo
     echo "Example:"
     echo "  $0 54.123.45.67 /path/to/pem/file"
